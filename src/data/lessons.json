@@ -1,0 +1,150 @@
+[
+  {
+    "id": "lesson1",
+    "courseId": "1",
+    "title": "Introduction to React",
+    "description": "Getting started with React fundamentals",
+    "duration": "12:34",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=300&h=169&fit=crop",
+    "transcript": "Welcome to this comprehensive React course. In this first lesson, we'll cover the basics of React and set up our development environment...",
+    "resources": [
+      {
+        "title": "Lesson Slides",
+        "url": "#",
+        "type": "pdf"
+      },
+      {
+        "title": "Code Examples",
+        "url": "#",
+        "type": "zip"
+      }
+    ],
+    "completed": true,
+    "order": 1
+  },
+  {
+    "id": "lesson2",
+    "courseId": "1",
+    "title": "JSX and Components",
+    "description": "Understanding JSX syntax and creating your first components",
+    "duration": "18:22",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=300&h=169&fit=crop",
+    "transcript": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files...",
+    "resources": [
+      {
+        "title": "JSX Reference",
+        "url": "#",
+        "type": "pdf"
+      }
+    ],
+    "completed": true,
+    "order": 2
+  },
+  {
+    "id": "lesson3",
+    "courseId": "1",
+    "title": "State and Props",
+    "description": "Managing component state and passing data with props",
+    "duration": "25:45",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=300&h=169&fit=crop",
+    "transcript": "State and props are fundamental concepts in React. State allows components to manage their own data...",
+    "resources": [
+      {
+        "title": "State Management Guide",
+        "url": "#",
+        "type": "pdf"
+      },
+      {
+        "title": "Practice Exercises",
+        "url": "#",
+        "type": "zip"
+      }
+    ],
+    "completed": false,
+    "order": 3
+  },
+  {
+    "id": "lesson4",
+    "courseId": "1",
+    "title": "Event Handling",
+    "description": "Handling user interactions and events in React",
+    "duration": "16:33",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=300&h=169&fit=crop",
+    "transcript": "Event handling in React follows a similar pattern to vanilla JavaScript, but with some important differences...",
+    "resources": [
+      {
+        "title": "Event Handling Examples",
+        "url": "#",
+        "type": "zip"
+      }
+    ],
+    "completed": false,
+    "order": 4
+  },
+  {
+    "id": "lesson5",
+    "courseId": "2",
+    "title": "Python Basics for Data Science",
+    "description": "Essential Python concepts for data analysis",
+    "duration": "22:15",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=300&h=169&fit=crop",
+    "transcript": "Python is an excellent language for data science due to its simplicity and powerful libraries...",
+    "resources": [
+      {
+        "title": "Python Cheat Sheet",
+        "url": "#",
+        "type": "pdf"
+      }
+    ],
+    "completed": false,
+    "order": 1
+  },
+  {
+    "id": "lesson6",
+    "courseId": "3",
+    "title": "Design Principles",
+    "description": "Fundamental principles of good design",
+    "duration": "19:48",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=300&h=169&fit=crop",
+    "transcript": "Good design is not just about making things look pretty. It's about solving problems and creating intuitive experiences...",
+    "resources": [
+      {
+        "title": "Design Principles Guide",
+        "url": "#",
+        "type": "pdf"
+      },
+      {
+        "title": "Design Templates",
+        "url": "#",
+        "type": "figma"
+      }
+    ],
+    "completed": true,
+    "order": 1
+  },
+  {
+    "id": "lesson7",
+    "courseId": "5",
+    "title": "Closures and Scope",
+    "description": "Understanding JavaScript closures and lexical scope",
+    "duration": "28:12",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+    "thumbnail": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=300&h=169&fit=crop",
+    "transcript": "Closures are one of the most powerful features of JavaScript. They allow functions to access variables from their outer scope...",
+    "resources": [
+      {
+        "title": "Closure Examples",
+        "url": "#",
+        "type": "js"
+      }
+    ],
+    "completed": true,
+    "order": 1
+  }
+]

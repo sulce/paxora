@@ -1,0 +1,163 @@
+[
+  {
+    "id": "1",
+    "title": "English as a Second Language",
+    "description": "Learn ESL, context, and best practices",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=225&fit=crop",
+    "instructor": {
+      "id": "inst1",
+      "name": "Paxora Consulting",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b5b6e15f?w=100&h=100&fit=crop&crop=face",
+      "bio": "English Instructor with 10+ years of experience in ESL"
+    },
+    "duration": "12 hours",
+    "studentsCount": 1247,
+    "rating": 4.8,
+    "price": 89.99,
+    "category": "Web Development",
+    "level": "Intermediate",
+    "progress": 65,
+    "lessonsCount": 24,
+    "enrolled": true,
+    "tags": [
+      "English",
+      "ESL",
+      "Second Language"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Basic Computing: Microsoft Office Tools",
+    "description": "Master basic computing and Microsoft office tools",
+    "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=225&fit=crop",
+    "instructor": {
+      "id": "inst2",
+      "name": "Paxora Consulting",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+      "bio": "Data Scientist and PhD in Computer Science, former researcher at MIT"
+    },
+    "duration": "18 hours",
+    "studentsCount": 2156,
+    "rating": 4.9,
+    "price": 129.99,
+    "category": "Computer Science",
+    "level": "Beginner",
+    "progress": 0,
+    "lessonsCount": 32,
+    "enrolled": false,
+    "tags": [
+      "Microsoft Office",
+      "Excel",
+      "Word",
+      "PowerPoint"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Enterpreneurship",
+    "description": "Learn the principles of entrepreneurship in Canada and the world",
+    "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=225&fit=crop",
+    "instructor": {
+      "id": "inst3",
+      "name": "Paxora Consulting",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+      "bio": "Serial Entrepreneur with 10+ years of experience in entrepreneurship"
+    },
+    "duration": "15 hours",
+    "studentsCount": 987,
+    "rating": 4.7,
+    "price": 99.99,
+    "category": "Design",
+    "level": "Beginner",
+    "progress": 30,
+    "lessonsCount": 28,
+    "enrolled": true,
+    "tags": [
+      "Entrepreneurship",
+      "Business",
+      "Management",
+      "Figma"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Intro to Social Media Marketing",
+    "description": "Complete guide to social media marketing including SEO, social media, and analytics",
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=225&fit=crop",
+    "instructor": {
+      "id": "inst4",
+      "name": "Paxora Consulting",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+      "bio": "Digital Marketing Director at major advertising agency with proven track record"
+    },
+    "duration": "20 hours",
+    "studentsCount": 3421,
+    "rating": 4.6,
+    "price": 149.99,
+    "category": "Marketing",
+    "level": "Intermediate",
+    "progress": 0,
+    "lessonsCount": 36,
+    "enrolled": false,
+    "tags": [
+      "Marketing",
+      "SEO",
+      "Social Media",
+      "Analytics"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Social Etiquette for Youths",
+    "description": "Deep dive into social etiquette for youths",
+    "thumbnail": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=225&fit=crop",
+    "instructor": {
+      "id": "inst5",
+      "name": "Paxora Consulting",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
+      "bio": "Social Etiquette Expert with 10+ years of experience in social etiquette"
+    },
+    "duration": "14 hours",
+    "studentsCount": 876,
+    "rating": 4.9,
+    "price": 119.99,
+    "category": "Social Etiquette",
+    "level": "Advanced",
+    "progress": 80,
+    "lessonsCount": 26,
+    "enrolled": true,
+    "tags": [
+      "Social Etiquette",
+      "Youth",
+      "Behavior",
+      "Advanced"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Preparing for Life in Canada",
+    "description": "Learn about preparing for life in Canada",
+    "thumbnail": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=400&h=225&fit=crop",
+    "instructor": {
+      "id": "inst6",
+      "name": "Paxora Consulting",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face",
+      "bio": "Award-winning Canadian Expert in preparing for life in Canada"
+    },
+    "duration": "16 hours",
+    "studentsCount": 1543,
+    "rating": 4.8,
+    "price": 109.99,
+    "category": "Immigration",
+    "level": "Beginner",
+    "progress": 0,
+    "lessonsCount": 30,
+    "enrolled": false,
+    "tags": [
+      "Immigration",
+      "Canada",
+      "Life",
+      "Beginner"
+    ]
+  }
+]
