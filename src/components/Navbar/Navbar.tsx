@@ -47,7 +47,7 @@ const Navbar: React.FC<NavbarProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2 flex-shrink-0">
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="flex items-center space-x-2"
@@ -55,9 +55,10 @@ const Navbar: React.FC<NavbarProps> = ({
               <img 
                 src="https://res.cloudinary.com/drvfzwgjm/image/upload/v1761166728/719f89c9-1a3b-4e05-b1a9-4e5865dea83b_nvqqvg.jpg" 
                 alt="Paxora Learning Hub" 
-                className="w-10 h-10 rounded-lg object-cover"
+                className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg object-cover"
               />
-              <span className="text-xl font-bold text-gray-900">Paxora Learning Hub</span>
+              <span className="text-lg sm:text-xl font-bold text-gray-900 hidden sm:block">Paxora Learning Hub</span>
+              <span className="text-lg font-bold text-gray-900 sm:hidden">Paxora</span>
             </motion.div>
           </Link>
 
@@ -83,7 +84,7 @@ const Navbar: React.FC<NavbarProps> = ({
 
           {/* Search Bar */}
           {isLoggedIn && (
-            <div className="hidden lg:flex flex-1 max-w-lg mx-8">
+            <div className="hidden lg:flex flex-1 max-w-lg mx-4 xl:mx-8">
               <div className="relative w-full">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
                 <input
@@ -96,8 +97,10 @@ const Navbar: React.FC<NavbarProps> = ({
           )}
 
           {/* Right Side */}
-          <div className="flex items-center space-x-4">
-            <LanguageSwitcher />
+          <div className="flex items-center space-x-2 sm:space-x-4">
+            <div className="hidden sm:block">
+              <LanguageSwitcher />
+            </div>
 
             {isLoggedIn ? (
               <>
@@ -115,7 +118,7 @@ const Navbar: React.FC<NavbarProps> = ({
                 <div className="relative">
                   <motion.button
                     onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-                    className="flex items-center space-x-2 p-2 rounded-lg hover:bg-gray-50"
+                    className="flex items-center space-x-1 sm:space-x-2 p-1 sm:p-2 rounded-lg hover:bg-gray-50"
                     whileHover={{ scale: 1.02 }}
                   >
                     <img
@@ -126,7 +129,7 @@ const Navbar: React.FC<NavbarProps> = ({
                     <span className="hidden md:block text-sm font-medium text-gray-700">
                       {user?.name || 'User'}
                     </span>
-                    <ChevronDown className="w-4 h-4 text-gray-400" />
+                    <ChevronDown className="w-4 h-4 text-gray-400 hidden sm:block" />
                   </motion.button>
 
                   <AnimatePresence>
@@ -219,6 +222,11 @@ const Navbar: React.FC<NavbarProps> = ({
                     </Link>
                   );
                 })}
+                
+                {/* Language Switcher for Mobile */}
+                <div className="px-3 py-2 sm:hidden">
+                  <LanguageSwitcher />
+                </div>
               </div>
             </motion.div>
           )}
